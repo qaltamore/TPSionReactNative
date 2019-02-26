@@ -43,8 +43,8 @@ class Planning extends React.Component {
                       activeDayTextStyle: {
                         color: 'red',
                       },
-                    }}*/}
-                />
+                    }}
+                />*/}
             </View>
         )
     }
