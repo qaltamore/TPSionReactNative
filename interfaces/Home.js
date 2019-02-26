@@ -14,7 +14,7 @@ class Home extends React.Component {
     }
 
     static navigationOptions = {
-        title: "ESTIAM"
+        title: "Mon Planning"
     }
 
     toggleView(view) {
