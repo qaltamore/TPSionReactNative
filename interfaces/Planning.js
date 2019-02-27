@@ -1,6 +1,6 @@
 import React from 'react'
 import { View } from 'react-native'
-import { Calendar } from 'react-native-calendario'
+import { Calendar } from 'react-native-calendars'
 
 class Planning extends React.Component {
     constructor(props) {
@@ -10,7 +10,7 @@ class Planning extends React.Component {
     render() {
         return(
             <View>
-                {/*<Calendar
+                <Calendar
                     onChange={range => console.log(range)}
                     minDate="2019-01-01"
                     startDate="2019-02-27"
@@ -44,7 +44,7 @@ class Planning extends React.Component {
                         color: 'red',
                       },
                     }}
-                />*/}
+                />
             </View>
         )
     }
